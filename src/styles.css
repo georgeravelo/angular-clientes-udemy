@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* para evitar el overflow, donde la cantidad de registros supera la altura de la pagina */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* que el body tenga un margen inferior de la misma altura del footer */
+body {
+    margin-bottom: 60px;
+}
+
+.wrap-main-content {
+    padding-bottom: 60px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
